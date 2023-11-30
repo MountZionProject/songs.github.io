@@ -1,0 +1,50 @@
+body{
+        background-color:azure;
+    }
+   .map {
+   border-radius: 25px;
+  border:solid 2px white;
+  background-color: rgb(23,56,87); 
+  width:49%;
+height:480px;
+  float:left;
+}
+    svg path{
+            fill:white;
+            stroke: blue;
+            stroke-width: .30;
+        }
+        svg path:hover{
+            fill:green;
+            transition: 0.5s;
+            cursor:pointer;
+        }
+.content {
+ border-radius: 25px;
+  border:solid 2px white;
+  background-color: rgb(23,56,87); 
+  width:49%;
+    height:480px;
+    color:white;
+  float:right;
+}
+.header {
+ border-radius: 25px;
+  border:solid 1px white;
+    text-align: center;
+      background: rgb(23,56,87);
+  color: white;
+      font-size: 20px;
+
+}
+    
+   
+@media screen and (max-width: 800px) {
+  .map, .content {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    height:400px;
+  }
+  .header{
+   font-size: 10px;
+}
+}
