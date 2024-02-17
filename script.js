@@ -5,26 +5,21 @@ class CardProfile extends React.Component {constructor(...args) {super(...args);
       currentTime: '0:00',
       musicList: [{ name: 'Song 1', author: 'Author name', img: 'https://www.bensound.com/bensound-img/buddy.jpg', audio: 'Song/song_1.mp3', duration: '2:02' },
       { name: 'Song 2', author: 'Author 2', img: 'https://www.bensound.com/bensound-img/sunny.jpg', audio: 'https://www.bensound.com//bensound-music/bensound-sunny.mp3', duration: '2:20' },
-      { name: 'Corporate motivational', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
-      { name: 'Song 3', author: 'Author 3', img: 'https://www.bensound.com/bensound-img/slowmotion.jpg', audio: 'Song/song_3.mp3', duration: '3:26' }],
+      { name: 'Song 3', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+       { name: '4', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+       { name: '5', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+        { name: '6', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+        { name: '7', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+        { name: 'Song 8', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+        { name: '9', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_1.mp3', duration: '2:59' },
+        { name: '10', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio: 'Song/song_2.mp3', duration: '2:59' },
+      { name: '11', author: 'Author 3', img: 'https://www.bensound.com/bensound-img/slowmotion.jpg', audio: 'Song/song_3.mp3', duration: '3:26' }],
       pause: false });_defineProperty(this, "changeCurrentTime",
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                      
+                                      
+                                      
 
 
     e => {
